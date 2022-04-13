@@ -85,5 +85,5 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v0'
         with:
           path: ./build/libs/
-          destination: dowon0419/$(date +"%Y-%m-%d %H:%M:%S %z")
+          destination: dowon0419
           parent: false
